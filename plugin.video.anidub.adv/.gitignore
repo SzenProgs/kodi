@@ -1,0 +1,7 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+sftp-config.json
+*.ini
+*.log
+_git_*.bat
+*.sublime-project
+*.sublime-workspace

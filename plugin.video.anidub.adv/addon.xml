@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.anidub.adv"
+	 name="[COLOR=FF666E7F]Ani[/COLOR][COLOR=FFE84C3D]DUB[/COLOR]adv"
+	 version="0.0.0.1"
+	 provider-name="Szen">
+	<requires>
+		<import addon="xbmc.python" version="2.7.8"/>
+		<import addon="script.module.beautifulsoup4"/>
+		<import addon="script.module.tengine"/>
+		<import addon="script.module.cfscrape"/>
+		<import addon="script.module.cdebug"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Anidub Advanced</summary>
+		<description>[COLOR=FF666E7F]Ani[/COLOR][COLOR=FFE84C3D]DUB[/COLOR]adv tracker client</description>
+		<platform>all</platform>
+	</extension>
+</addon>
